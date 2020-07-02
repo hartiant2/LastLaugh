@@ -422,7 +422,7 @@ GameObject:
   - component: {fileID: 137684111}
   - component: {fileID: 137684110}
   m_Layer: 5
-  m_Name: Potions on the card
+  m_Name: Potions Option
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -436,16 +436,16 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 137684108}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 105.36344}
-  m_LocalScale: {x: 1.476853, y: 0.42069063, z: 2.197881}
+  m_LocalPosition: {x: 0, y: 0, z: 0.000015258789}
+  m_LocalScale: {x: 0.75519, y: 0.97984004, z: 1.0325701}
   m_Children:
   - {fileID: 365763679}
-  m_Father: {fileID: 982599872}
-  m_RootOrder: 1
+  m_Father: {fileID: 1441149116}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.3, y: 36.999954}
+  m_AnchoredPosition: {x: 289.84656, y: -22.522568}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &137684110
@@ -767,6 +767,42 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 24.737001, y: 0.74, z: -0.208}
+--- !u!1 &314118373
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 314118374}
+  m_Layer: 5
+  m_Name: Attacks option menu
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &314118374
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 314118373}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1362020028}
+  m_Father: {fileID: 458192268}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &332721300
 GameObject:
   m_ObjectHideFlags: 0
@@ -1394,6 +1430,10 @@ RectTransform:
   - {fileID: 190872888}
   - {fileID: 1991187180}
   - {fileID: 1767294325}
+  - {fileID: 314118374}
+  - {fileID: 650798829}
+  - {fileID: 829096614}
+  - {fileID: 1441149116}
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1599,7 +1639,6 @@ RectTransform:
   m_LocalScale: {x: 0.5113508, y: 2.3291225, z: 0.46980256}
   m_Children:
   - {fileID: 366940304}
-  - {fileID: 1012327508}
   m_Father: {fileID: 1767294325}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1844,6 +1883,42 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 588366397}
   m_CullTransparentMesh: 0
+--- !u!1 &650798828
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 650798829}
+  m_Layer: 5
+  m_Name: Shield opton menu
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &650798829
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 650798828}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1135884818}
+  m_Father: {fileID: 458192268}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &730451765
 GameObject:
   m_ObjectHideFlags: 0
@@ -2297,6 +2372,42 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57079abaed18a394fae4bd43f2df5d34, type: 3}
+--- !u!1 &829096613
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 829096614}
+  m_Layer: 5
+  m_Name: Potion Option Menu
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &829096614
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 829096613}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1012327508}
+  m_Father: {fileID: 458192268}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &839375423
 GameObject:
   m_ObjectHideFlags: 0
@@ -2328,7 +2439,6 @@ RectTransform:
   m_LocalScale: {x: 0.5113508, y: 2.3291225, z: 0.46980256}
   m_Children:
   - {fileID: 566416715}
-  - {fileID: 1135884818}
   m_Father: {fileID: 1767294325}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2447,7 +2557,6 @@ RectTransform:
   m_LocalScale: {x: 0.5113508, y: 2.3291225, z: 0.46980256}
   m_Children:
   - {fileID: 18836806}
-  - {fileID: 137684109}
   m_Father: {fileID: 1767294325}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2547,7 +2656,7 @@ GameObject:
   - component: {fileID: 1012327510}
   - component: {fileID: 1012327509}
   m_Layer: 5
-  m_Name: Potions on the card
+  m_Name: Potions Options
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2561,17 +2670,17 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1012327507}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 105.363434}
-  m_LocalScale: {x: 1.476853, y: 0.42069063, z: 2.197881}
+  m_LocalPosition: {x: 0, y: 0, z: 0.000011444092}
+  m_LocalScale: {x: 0.75519, y: 0.97984004, z: 1.0325701}
   m_Children:
   - {fileID: 332721301}
   - {fileID: 730451766}
-  m_Father: {fileID: 572638488}
-  m_RootOrder: 1
+  m_Father: {fileID: 829096614}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1, y: 36.99997}
+  m_AnchoredPosition: {x: 204.31134, y: -22.522537}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1012327509
@@ -2897,7 +3006,7 @@ GameObject:
   - component: {fileID: 1135884820}
   - component: {fileID: 1135884819}
   m_Layer: 5
-  m_Name: Shields on the card
+  m_Name: Shields Options
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2911,18 +3020,18 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1135884817}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 105.36343}
-  m_LocalScale: {x: 1.476853, y: 0.42069063, z: 2.197881}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.75519, y: 0.97984004, z: 1.0325701}
   m_Children:
   - {fileID: 805722618}
   - {fileID: 1026043080}
   - {fileID: 1560513995}
-  m_Father: {fileID: 839375424}
-  m_RootOrder: 1
+  m_Father: {fileID: 650798829}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2, y: 36.999985}
+  m_AnchoredPosition: {x: -212.0227, y: -22.522491}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1135884819
@@ -3468,7 +3577,7 @@ GameObject:
   - component: {fileID: 1362020030}
   - component: {fileID: 1362020029}
   m_Layer: 5
-  m_Name: Attacks on the card
+  m_Name: Attacks Options
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3482,18 +3591,18 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1362020027}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 105.36342}
-  m_LocalScale: {x: 1.4768534, y: 0.42068863, z: 2.1978877}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.7551902, y: 0.9798354, z: 1.0325732}
   m_Children:
   - {fileID: 33975754}
   - {fileID: 775227511}
   - {fileID: 285565561}
-  m_Father: {fileID: 1616831040}
-  m_RootOrder: 1
+  m_Father: {fileID: 314118374}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.19552612, y: 37}
+  m_AnchoredPosition: {x: -297.39996, y: -22.52246}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1362020029
@@ -3609,6 +3718,42 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1436776222}
   m_CullTransparentMesh: 0
+--- !u!1 &1441149115
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1441149116}
+  m_Layer: 5
+  m_Name: Exit option
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1441149116
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1441149115}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 137684109}
+  m_Father: {fileID: 458192268}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1526529430
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4169,7 +4314,6 @@ RectTransform:
   m_LocalScale: {x: 0.5113508, y: 2.3291225, z: 0.46980256}
   m_Children:
   - {fileID: 1436776223}
-  - {fileID: 1362020028}
   m_Father: {fileID: 1767294325}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
